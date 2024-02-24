@@ -1,0 +1,99 @@
+body{
+    background-color: #DFE2FF;
+}
+.container{
+    width: 497px;
+    height: 402px;
+    background-color: white;
+    border-radius: 32px;
+    padding: 64px;
+    box-sizing: border-box;
+}
+.person-info{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.person-avatar{
+    margin-right: 16px;
+}
+.name{
+    font-family: "Merriweather", serif;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 24px;
+    color: #291F68;
+    margin: 0 0 8px 0;
+}
+.location{
+    font-family: Popins, sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    color: #291F68;
+    margin: 0 0 16px 0;
+}
+.follow{
+    background-color: #291F68;
+    width: 100%;
+    height: 59px;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-family: Popins, sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 16px;
+    margin-top: 40px;
+}
+.message{
+    width: 100%;
+    height: 59px;
+    background-color: #FFFFFF;
+    color:#291F68;
+    border-radius: 8px;
+    font-family: Popins, sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 16px;
+    border : 1px solid #291F68;
+}
+
+/*.container{*/
+/*    width: 344px;*/
+/*    height: 263px;*/
+/*    background-color: white;*/
+/*    border-radius: 32px;*/
+/*    box-sizing: border-box;*/
+/*    padding: 64px;*/
+/*}*/
+/*.card-title{*/
+/*    color: #291F68;*/
+/*    font-family: "Merriweather", serif;*/
+/*    font-weight: 900;*/
+/*    font-style: normal;*/
+/*    font-size: 24px;*/
+/*    margin: 0 0 16px 0;*/
+/*}*/
+/*.analytic{*/
+/*    display: inline-block;*/
+/*    align-items: center;*/
+/*    margin-right: 10px;*/
+/*    margin-bottom: 40px;*/
+/*}*/
+
+/*.analytics-icon{*/
+/*    width: 28px;*/
+/*    height: 28px;*/
+/*}*/
+/*.analytics-text{*/
+/*    font-family: Popins, sans-serif;*/
+/*    color: #291F68;*/
+/*    font-size: 16px;*/
+/*    font-weight: 500;*/
+/*}*/
+/*.card-footer{*/
+/*    font-family: Popins, sans-serif;*/
+/*    color: #291F68;*/
+/*    font-size: 14px;*/
+/*    font-weight: 500;*/
+/*}*/
