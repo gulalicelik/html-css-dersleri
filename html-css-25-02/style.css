@@ -1,0 +1,89 @@
+/**{*/
+/*    margin: 0;*/
+/*    padding: 0;*/
+/*    box-sizing: border-box;*/
+/*}*/
+/*body{*/
+/*    background-color: red;*/
+/*}*/
+/*.container {*/
+/*    width: 582px;*/
+/*    height:363px ;*/
+/*    background-color: white;*/
+/*    border-radius: 30px;*/
+/*    padding: 90px;*/
+/*    box-sizing: border-box;*/
+/*}*/
+/*.card-content {*/
+/*    display: flex;*/
+/*    align-items: center;*/
+
+/*}*/
+
+/*.card-title{*/
+/*    margin-bottom: 32px;*/
+/*    font-family: "Merriweather", serif;*/
+/*    font-weight: 900;*/
+/*    font-style: normal;*/
+/*    color: #1B1A34;*/
+/*    font-size: 26px;*/
+/*    margin-top: 0;*/
+/*}*/
+
+/*.progress{*/
+/*    width: 118px;*/
+/*    height: 118px;*/
+/*    background-color: white;*/
+/*    border-radius: 50%;*/
+/*    border: 8px solid #D5D4F0;*/
+/*    box-sizing: border-box;*/
+/*    display: flex;*/
+/*    align-items: center;*/
+/*    justify-content: center;*/
+/*    margin-right: 16px;*/
+/*}*/
+/*.progress-info{*/
+/*    text-align: center;*/
+/*    font-family: Inter, sans-serif;*/
+/*    font-style: normal;*/
+/*    font-weight: 900;*/
+/*    font-size: 28px;*/
+/*    color: #1B1A34;*/
+
+/*}*/
+
+/*.info-title{*/
+/*    font-family: Inter, sans-serif;*/
+/*    font-style: normal;*/
+/*    font-weight: 600;*/
+/*    font-size: 24px;*/
+/*    color: #1B1A34;*/
+/*    margin:0;*/
+/*}*/
+
+/*.info-description{*/
+/*    font-family: Inter, sans-serif;*/
+/*    font-style: normal;*/
+/*    font-weight: 500;*/
+/*    color: #1B1A34;*/
+/*    font-size: 18px;*/
+/*    margin:8px 0 0 0;*/
+/*}*/
+
+.container1{
+    width: 200px;
+    height: 200px;
+    background-color: green;
+    position: relative;
+    z-index: 3;
+}
+
+.container2{
+    width: 180px;
+    height: 180px;
+    background-color: blue;
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    z-index: 21;
+}
