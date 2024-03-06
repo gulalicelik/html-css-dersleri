@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    /*background-color: #F5F8FF;*/
+    background-color: red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.container {
+    width: 617px;
+    height: 770px;
+    background-color: white;
+    border-radius: 43px;
+    padding: 80px;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+#title {
+    font-family: "Merriweather", serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 24px;
+    color: #1F2554;
+    margin-bottom: 32px;
+}
+
+.compose {
+    width: 428px;
+    height: 80px;
+    background-color: #1F2554;
+    color: white;
+    font-family: Popins, sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    border: none;
+    border-radius: 16px;
+    margin-bottom: 16px;
+}
+
+.compose:hover {
+    cursor: pointer;
+    background-color: #13143C;
+}
+
+.message-item {
+    width: 457px;
+    height: 110px;
+    border-radius: 16px;
+    padding: 16px;
+    display: flex;
+    margin-bottom: 4px;
+}
+
+.sender-avatar {
+    margin-right: 16px;
+}
+.avatar-area{
+    position: relative;
+}
+.status {
+    width: 23px;
+    height: 23px;
+    background-color: black;
+    border-radius: 50%;
+    position: absolute;
+    border: 3px solid white;
+    right: 15px;
+    top:1px
+}
+
+.message-item-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.title-inner {
+    width: 331px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 8px;
+
+}
+
+.sender {
+    font-weight: 700;
+    color: #1F2554;
+    font-size: 18px;
+}
+
+.timestamp {
+    font-weight: 500;
+    color: #1F2554;
+    font-size: 14px;
+}
+
+.content {
+    font-weight: 500;
+    color: #1F2554;
+    font-size: 18px;
+}
+
+.active {
+    background-color: #F5F8FF;
+}
+.status-online{
+    background-color: #3FDEA5;
+}
+.status-busy{
+    background-color: #DE783F;
+}
+.status-offline{
+    background-color: #D1D1D1;
+}
