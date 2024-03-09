@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Popins', sans-serif;
+}
+
+body {
+    background: #1c338d;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.container {
+    width: 476px;
+    height: 635px;
+    background-color: white;
+    border-radius: 40px;
+    padding: 50px 70px 90px 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.package-icon {
+    width: 126px;
+    height: 126px;
+    border: 1px solid #A6ADD2;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 16px;
+}
+
+.package-info {
+    margin-bottom: 69px;
+}
+
+.pacakge-name {
+    font-weight: bold;
+    font-size: 16px;
+    color: #1B255A;
+}
+
+.text {
+    font-size: 16px;
+    color: #1B255A;
+    text-align: center;
+    font-weight: 500;
+}
+
+.inner-price {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.downloads {
+    width: 288px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+.download-count {
+    width: 66px;
+    height: 56px;
+    border: 2px solid #1B255A;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px ;
+    color: #1B255A;
+    font-weight: 500;
+}
+
+.active-count{
+    background-color: #1B255A;
+    color: white;
+}
+.description{
+    font-size: 16px;
+    font-weight: 500;
+    color: #1B255A;
+    margin-bottom: 40px;
+}
+
+.subscribe {
+    width: 337px;
+    height: 75px;
+    background-color: #1B255A;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-weight: 500;
+    font-size: 16px;
+}
