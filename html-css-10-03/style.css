@@ -1,0 +1,42 @@
+@media only screen and (max-width: 479px) {
+    .container {
+        width: 150px;
+        height: 150px;
+        background-color: orangered;
+    }
+}
+
+@media only screen and (min-width: 480px) {
+    .container {
+        width: 150px;
+        height: 150px;
+        background-color: blue;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .container {
+        width: 150px;
+        height: 150px;
+        background-color: black;
+    }
+}
+
+
+@media only screen and (min-width: 992px) {
+    .container {
+        width: 150px;
+        height: 150px;
+        background-color: green;
+    }
+}
+
+
+@media only screen and (min-width: 1280px) {
+    .container {
+        width: 150px;
+        height: 150px;
+        background-color: yellow;
+    }
+}
+
